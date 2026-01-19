@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a8d9c2c-e3eb-468a-98de-6027fafa9e88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/BibliotecaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/BibliotecaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-git-conflict-lab1/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-git-conflict-lab1/model/Libro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-git-conflict-lab1/model/Reserva.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-git-conflict-lab1/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-git-conflict-lab1/service/BibliotecaService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
