@@ -8,7 +8,7 @@ public class Libro {
     public Libro(String isbn, String titulo) {
         this.isbn = isbn;
         this.titulo = titulo;
-        this.disponible = true;
+        this.reservasActivas = 0;   //El atributo cambia a reservactas activas que es un int, es un contador
     }
 
     public String getIsbn() {
@@ -23,8 +23,8 @@ public class Libro {
         return reservasActivas == 0;
     }
 
-    public void setDisponible(boolean disponible) {
-        this.disponible = disponible;
+    public void setDisponible(int reservado) {
+        this.reservasActivas = reservado;
     }
     public void incrementarReservas() {
         reservasActivas++;
@@ -33,6 +33,6 @@ public class Libro {
     @Override
     public String toString() {
         return titulo + " (" + isbn + ") - " +
-               (disponible ? "Disponible" : "No disponible");
+               (reservasActivas == 0 ? "Disponible" : "No disponible");
     }
 }

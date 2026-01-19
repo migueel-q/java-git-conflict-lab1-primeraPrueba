@@ -3,7 +3,6 @@ package service;
 import model.Libro;
 import model.Reserva;
 import model.Usuario;
-import util.Validador;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +26,7 @@ public class BibliotecaService {
             return false;
         }
 
-        if (!Validador.validarUsuario(usuario)) {
+        if (!validarUsuario(usuario)) {     //La clase Validador ya no existe, asi que llamamos al metodo estatico de la clase
             System.out.println("Error: usuario no válido.");
             return false;
         }
@@ -53,7 +52,7 @@ public class BibliotecaService {
         }
 
         // Realizar la reserva
-        libro.setDisponible(false);
+        libro.setDisponible(1);     //Como ya no es un boolean cambiamos a 1
         reservas.add(new Reserva(usuario, libro));
 
         System.out.println("Reserva realizada correctamente.");
